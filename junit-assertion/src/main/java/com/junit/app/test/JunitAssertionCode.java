@@ -20,9 +20,9 @@ public class JunitAssertionCode {
 		int variable1 = 1;
 		int variable2 = 2;
 
-		int[] airethematicArrary1 = { 1, 2, 3 };					
-        int[] airethematicArrary2 = { 1, 2, 3 };
-		
+		int[] airethematicArrary1 = { 1, 2, 3 };
+		int[] airethematicArrary2 = { 1, 2, 3 };
+
 		// Assert statements
 		assertEquals(string1, string2);
 		assertSame(string3, string4);
@@ -31,7 +31,7 @@ public class JunitAssertionCode {
 		assertNull(string5);
 
 		assertTrue(variable1 < variable2);
-
+		assertArrayEquals(airethematicArrary1, airethematicArrary2);
 	}
 
 }
